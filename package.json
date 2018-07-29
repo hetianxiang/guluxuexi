@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/hetianxiang/guluxuexi/issues"
   },
-  "homepage": "https://github.com/hetianxiang/guluxuexi#readme"
+  "homepage": "https://github.com/hetianxiang/guluxuexi#readme",
+  "dependencies": {
+    "vue": "^2.5.16"
+  }
 }
