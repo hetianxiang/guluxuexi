@@ -47,7 +47,9 @@
 <body>
 <div id="app">{{message}}
     <!--<g-button class="g-button"></g-button>-->
-    <g-button icon="setting"></g-button>
+    <g-button :loading="loading1" @click="loading1 = !loading1">按钮</g-button>
+    <g-button icon="setting" :loading="loading2" @click="loading2 = !loading2"></g-button>
+    <g-button icon="setting" icon-position="right" :loading="loading2" @click="loading3 = !loading3"></g-button>
     <g-icon name="download"></g-icon>
 </div>
 <!--<script src="./node_modules/vue/dist/vue.min.js"></script>-->
