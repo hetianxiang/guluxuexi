@@ -30,7 +30,7 @@
         0% { transform: rotate(0deg); }
         100% { transform: rotate(360deg)}
     }
-    .loading{
+    .loading {
         animation: spin 2s infinite linear;
     }
     .g-button { font-size: var(--font-size); height: var(--button-height); padding: 0 1em;
